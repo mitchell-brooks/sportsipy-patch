@@ -307,25 +307,25 @@ PLAYER_SCHEME = {
     'defensive_rating': 'td[data-stat="def_rtg"]'
 }
 
-BASIC_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/'
+BASIC_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/men/'
                    '%s-school-stats.html')
-BASIC_OPPONENT_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/'
+BASIC_OPPONENT_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/men/'
                             '%s-opponent-stats.html')
-ADVANCED_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/'
+ADVANCED_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/men/'
                       '%s-advanced-school-stats.html')
-ADVANCED_OPPONENT_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/'
+ADVANCED_OPPONENT_STATS_URL = ('https://www.sports-reference.com/cbb/seasons/men/'
                                '%s-advanced-opponent-stats.html')
 
-SCHEDULE_URL = ('https://www.sports-reference.com/cbb/schools/%s/'
+SCHEDULE_URL = ('https://www.sports-reference.com/cbb/schools/%s/men/'
                 '%s-schedule.html')
 BOXSCORE_URL = 'https://www.sports-reference.com/cbb/boxscores/%s.html'
 BOXSCORES_URL = ('https://www.sports-reference.com/cbb/boxscores/index.cgi?'
                  'month=%s&day=%s&year=%s')
 RANKINGS_URL = 'https://www.sports-reference.com/cbb/seasons/%s-polls-old.html'
-CONFERENCES_URL = 'https://www.sports-reference.com/cbb/seasons/%s.html'
-CONFERENCE_URL = 'https://www.sports-reference.com/cbb/conferences/%s/%s.html'
+CONFERENCES_URL = 'https://www.sports-reference.com/cbb/seasons/men/%s.html'
+CONFERENCE_URL = 'https://www.sports-reference.com/cbb/conferences/%s/men/%s.html'
 PLAYER_URL = 'https://www.sports-reference.com/cbb/players/%s.html'
-ROSTER_URL = 'https://www.sports-reference.com/cbb/schools/%s/%s.html'
+ROSTER_URL = 'https://www.sports-reference.com/cbb/schools/%s/men/%s.html'
 
 NCAA_TOURNAMENT = 'NCAA'
 NIT_TOURNAMENT = 'NIT'
